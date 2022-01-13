@@ -22,9 +22,9 @@
 
 Look at this horizontal:
 ---
-'We got some inline code'
+`We got some inline code`
 
-'''
+```
 Yuh we got it
 Code blocks!
-'''
+```
