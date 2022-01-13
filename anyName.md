@@ -8,7 +8,7 @@
 
 [Link](https://google.com)
 
-![Image](https://github.com/christopherthomason/cse15l-lab-reports/blob/main/download.png)
+![Image](download.png)
 
 > A wise man once said
 
