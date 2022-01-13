@@ -5,4 +5,23 @@
 *This is italic*
 
 [Link](https://google.com)
-![Image]
+![Image](https://github.com/christopherthomason/cse15l-lab-reports/blob/main/download.png)
+
+> A wise man once said
+
+* First item
+* Second item
+* Definitely not the fourth item
+
+1. First item
+2. Second item
+3. Third item
+
+Look at this horizontal:
+---
+'We got some inline code'
+
+'''
+Yuh we got it
+Code blocks!
+'''
