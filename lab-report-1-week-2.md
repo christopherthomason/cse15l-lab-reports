@@ -47,7 +47,7 @@ Exit the server and use the command with your own path from the keygen step and 
 ```
 scp /Users/chris/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
-After this step is complete, you will now be able to ssh into the server without entering your password!
+After this step is complete, you will now be able to ssh into the server without entering your password! Doing this saves you as many keystrokes as your password takes to type in every time you need to remotely connect. 
 
 ## Optimizing Remote Running
 
@@ -55,10 +55,11 @@ To finish this lab report off, we will now discuss some helpful tips for using t
 
 * One helpful tip is that you can run commands on the server without fully logging in by adding a command in quotes at the end of an ssh command:
 ![Image](lab1report6.png)
+In this example, we use 37 keystrokes. We save keystrokes in two main ways here. The first is that we save keystrokes by not having to enter in a password because of the previous step. The second is that we do not have to enter the command on the next line and press enter again and then exit either by typing exit or pressing `ctrl-d`.
 * Another helpful tip is that you can use semicolons to run multiple commands on the same line:
 ```
 $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 ```
-This command would copy the WhereAmI.java to a new file OtherMain.java, compile that new file, and then run WhereAmI. 
+This command would copy the WhereAmI.java to a new file OtherMain.java, compile that new file, and then run WhereAmI. Doing this does not really save keystrokes as the keystrokes that would be used pressing enter are instead used to type in the semicolons. 
 
 Hopefully, you are now able to efficiently connect to and use a computer in ieng6 remotely!
